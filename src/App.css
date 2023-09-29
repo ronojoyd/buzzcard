@@ -36,3 +36,53 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-color: #003057; /* Navy blue background */
+  color: #B3A369; /* Gold text */
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 600px; /* Max width for mobile-friendly layout */
+  margin: auto; /* Center the app on the page */
+  padding: 0 20px; /* Add some spacing on the sides */
+}
+
+.input, .button {
+  width: 100%; /* Full width inputs and buttons */
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 50px; /* Rounded corners */
+}
+
+.input {
+  background-color: #fff; /* White input fields */
+}
+
+.button {
+  background-color: #FFD700; /* Gold buttons */
+  color: #0c0c51; /* Navy blue button text */
+}
+
+.card {
+  border: 1px solid #FFD700; /* Gold border */
+  padding: 10px;
+}
+
+.table {
+  margin-top: 20px;
+}
+
+table, th, td {
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+}
+
